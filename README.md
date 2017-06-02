@@ -56,6 +56,16 @@ were the magic words.
 
   Good night!
  _________________________________________________________________________________________________________________________________________
+  
+  Class Notes 3/26
+  
+  H-Bridge: 
+  (Texas Instruments L293NE) is made up of 16 pins and is counted in a 'U' shape (1 is directly across from 16).  
+  Operates between 4.5V and 36V.
+  Uses two pins on either side (4,5 and 12,14) as a heatsink to ensure cooling/protection from over heating
+  
+  Two center 
+  
   Class Notes 3/31
 
   
@@ -77,7 +87,7 @@ because if all values are constant the action based on a variable will not be po
 
 using // is often used as a way of "commenting out" a portion of code so that it is still visable to the programmer but not read as code
 
-Using additional power (9v or 6v batt pack)source when powering multiple outputs helps to prevent system shutdown caused by fluctuation in power when load is too high.
+Using additional power (9v or 6v batt pack) source when powering multiple outputs helps to prevent system shutdown caused by fluctuation in power when load is too high.
 
 Circuit was unable to reverse direction of motor due to faulty wire at digital pin 4.  Sketch performed as expected once wire was changed.
 __________________________________________________________________________________________________________________________________________
