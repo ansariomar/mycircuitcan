@@ -71,6 +71,8 @@ were the magic words.
   
   Can be used to power two motors 
   
+  _________________________________________________
+  
   Class Notes 3/31
 
   
