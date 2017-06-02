@@ -35,15 +35,13 @@ If_LDR_Greater_Than_750_LED_On_Less_Than_750_Blink; LED blinks below 750, moment
   Class Notes 3/31
   ________________
   
-``` 
-const int sensorPin = A0;    // select the input pin for the potentiometer
+``` const int sensorPin = A0;    // select the input pin for the potentiometer
 const int ledPin = 13;      // select the pin for the LED
 int sensorValue = 0;  // variable to store the value coming from the sensor```
 
 is beter than
 
-``` 
-const int sensorPin = A0;    // select the input pin for the potentiometer
+``` const int sensorPin = A0;    // select the input pin for the potentiometer
 const int ledPin = 13;      // select the pin for the LED
 const int sensorValue = 0;  // variable to store the value coming from the sensor```
 
