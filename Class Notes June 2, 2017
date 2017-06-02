@@ -1,0 +1,29 @@
+Class Notes
+
+Testing motor without H-bridge
+
+Testing H-bridge without Arduino
+
+Testing program without H-bridge
+
+2 types of voltage AC (alternating current) and DC (direct current)
+
+How test a multimeter: place black wire in grnd on breadboard and red wire into 5V= should read between 4.75-5.25V
+
+/* until /* is all treated as comment whereas // is only treated as a comment for the line it is written on
+
+Distance Measuring Sensor
+
+VCC: to Arduino 5V
+GND: to Arduino GND
+Trig: Emits sonic pulse for location (output)
+Echo: Listens/receives pulse completing the loop (input)
+
+code uses microseconds because milliseconds are too long for it to operate properly
+
+```
+long duration, distance;
+```
+
+
+
