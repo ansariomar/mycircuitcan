@@ -1,5 +1,6 @@
 mycircuitcan
-Arduino Class
+Arduino Robotics Summer 2017
+
 Analog_Input_With_Sensor_Value program; adding 
 ```
 delay(1);        // delay in between reads for stability
