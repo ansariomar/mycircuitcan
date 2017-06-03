@@ -21,9 +21,33 @@ Echo: Listens/receives pulse completing the loop (input)
 
 code uses microseconds because milliseconds are too long for it to operate properly
 
+long
+
+Description
+
+Long variables are extended size variables for number storage, and store 32 bits (4 bytes), from -2,147,483,648 to 2,147,483,647.
+
+Functions:
+Either require no, single, or multiple parameters 
+
+when "calling" a function the word "void" is placed in front of it
+
+Servo Motors:
+
+Moves at 180°
+Signal = Orange
+5V= Red
+GND = Brown
+
 ```
-long duration, distance;
+#include <Servo.h>
 ```
+is needed to use servo motors
+
+then you need to create a "handle"
+then you use that handle to assign the servo to a particular pin by writing assigned handle name.attach(pin #)
+example: myservo.attach(9); // attaches the servo to pin 9 to the servo object
+
 
 
 
