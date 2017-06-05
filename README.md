@@ -99,6 +99,10 @@ Using additional power (9v or 6v batt pack) source when powering multiple output
 Circuit was unable to reverse direction of motor due to faulty wire at digital pin 4.  Sketch performed as expected once wire was changed.
 __________________________________________________________________________________________________________________________________________
 
+```
+while (1)
+```
+causes momentary press of button to act as thought button is being held continuously, similar to a toggle switch.
 
 
 
