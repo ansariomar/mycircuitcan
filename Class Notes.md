@@ -1,6 +1,4 @@
-Class Notes 
-  
-5/26
+Class Notes 5/26
   
 H-Bridge: 
   
