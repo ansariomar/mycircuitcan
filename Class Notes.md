@@ -78,3 +78,13 @@ Moves at 180° Signal = Orange 5V= Red GND = Brown
 is needed to use servo motors
 
 then you need to create a "handle" then you use that handle to assign the servo to a particular pin by writing assigned handle name.attach(pin #) example: myservo.attach(9); // attaches the servo to pin 9 to the servo object
+
+Class Notes 6/5
+
+A "shield" is a more stable and permanent version of a breadboard.  Contains sockets and pins
+
+"Feed through headers" same as "stacking headers"
+
+Male headers plug into female headers
+
+
