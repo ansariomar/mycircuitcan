@@ -87,4 +87,22 @@ A "shield" is a more stable and permanent version of a breadboard.  Contains soc
 
 Male headers plug into female headers
 
+Creating a "function"
+
+by relocating a sequence of code into the end of a program under the loop
+
+examples:
+
+```
+void stop () {
+```
+or
+
+```
+long getDistance(){
+```
+code can be treated as a function so that you simply write stop or getDistance, or any other action you want to perform without having to write the code repeatedly
+
+"-1" is used to indicate an error 
+
 
