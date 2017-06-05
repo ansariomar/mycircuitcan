@@ -57,13 +57,15 @@ were the magic words.
   Good night!
  _________________________________________________________________________________________________________________________________________
   
-
- 
+motor_back_and_forth_with_push_button.ino; by adding
 
 ```
 while (1)
 ```
-causes momentary press of button to act as thought button is being held continuously, similar to a toggle switch.
+
+momentary press of button acts as though button is being held continuously, similar to a toggle switch but in one position.  Allowing for 
+
+motor_back_and_forth_push_button_continuous.ino
 
 
 
