@@ -15,6 +15,32 @@ Uses two pins on either side (4,5 and 12,14) as a heatsink to ensure cooling/pro
 Can be used to power two motors 
   
 ____________________________
+
+Class Notes 3/31
+
+  
+``` 
+const int sensorPin = A0;    // select the input pin for the potentiometer
+const int ledPin = 13;      // select the pin for the LED
+int sensorValue = 0;  // variable to store the value coming from the sensor
+```
+
+is beter than
+
+``` 
+const int sensorPin = A0;    // select the input pin for the potentiometer
+const int ledPin = 13;      // select the pin for the LED
+const int sensorValue = 0;  // variable to store the value coming from the sensor
+```
+
+because if all values are constant the action based on a variable will not be possible (const int vs int)
+
+using // is often used as a way of "commenting out" a portion of code so that it is still visable to the programmer but not read as code
+
+Using additional power (9v or 6v batt pack) source when powering multiple outputs helps to prevent system shutdown caused by fluctuation in power when load is too high.
+
+Circuit was unable to reverse direction of motor due to faulty wire at digital pin 4.  Sketch performed as expected once wire was changed.
+__________________________________________________________________________________________________________________________________________
   
 Class Notes
 
