@@ -14,7 +14,7 @@ Can be used to power two motors
   
 ____________________________
 
-Class Notes 3/31
+Class Notes 5/31
 
   
 ``` 
@@ -40,9 +40,7 @@ Using additional power (9v or 6v batt pack) source when powering multiple output
 Circuit was unable to reverse direction of motor due to faulty wire at digital pin 4.  Sketch performed as expected once wire was changed.
 __________________________________________________________________________________________________________________________________________
   
-Class Notes
-
-6/2
+Class Notes 6/2
 
 Testing motor without H-bridge
 
