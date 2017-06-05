@@ -1,4 +1,4 @@
-Class Notes
+Class Notes 6/2
 
 Testing motor without H-bridge
 
