@@ -105,4 +105,17 @@ code can be treated as a function so that you simply write stop or getDistance, 
 
 "-1" is used to indicate an error 
 
+Light Seeking Robot:
+
+```
+int rightSensor=analogRead (rightSensorPin);
+int leftSenson=analogRead (rightSensorPin);
+
+if (rightSensor>leftSensor) {
+turnRight ();
+} else{
+turnLeft();
+```
+}
+
 
