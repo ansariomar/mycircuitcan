@@ -79,6 +79,8 @@ is needed to use servo motors
 
 then you need to create a "handle" then you use that handle to assign the servo to a particular pin by writing assigned handle name.attach(pin #) example: myservo.attach(9); // attaches the servo to pin 9 to the servo object
 
+______________________________________________________
+
 Class Notes 6/5
 
 A "shield" is a more stable and permanent version of a breadboard.  Contains sockets and pins
