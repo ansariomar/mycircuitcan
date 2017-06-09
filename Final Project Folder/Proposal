@@ -1,2 +1,3 @@
 I would like to create a proof of concept for a long term project that involves the use of motorized robotic arms to assist a disabled user to autonomously get in and out of bed.  Using DC motors, micro limit switches, and proximity sensors, the robot will extend its arms upon detecting the presence of the user and retract them (ideally with the user in tow).
 
+
