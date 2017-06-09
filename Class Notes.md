@@ -58,7 +58,9 @@ Distance Measuring Sensor
 
 VCC: to Arduino 5V GND: to Arduino GND Trig: Emits sonic pulse for location (output) Echo: Listens/receives pulse completing the loop (input)
 
-code uses microseconds because milliseconds are too long for it to operate properly
+code uses microseconds because milliseconds are too 
+
+for it to operate properly
 
 long
 
@@ -119,5 +121,12 @@ turnRight ();
 turnLeft();
 ```
 }
+______________________________
 
+Class Notes 6/9
 
+Both "int" and "long" cannot recognize numbers after a decimal. "Float" allows storage and recognition of decimal points in code.
+
+Arrays need to contain a description of the number of intergers being placed within them.
+
+"Boolean" is used to describe true or false statements
