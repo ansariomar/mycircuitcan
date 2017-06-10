@@ -166,3 +166,7 @@ void loop () {
 Class contains objects
 
 "Serial" is a type of object that exists inside of the class "Print"
+
+"Constructor" is the name for the initializer of a "Class"
+
+
