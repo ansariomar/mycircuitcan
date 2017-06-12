@@ -175,7 +175,7 @@ Class Notes 6/12
 
 Using a potentiometer to help match motor speeds 
 
-``
+```
 /*
 Simple light seeking robot with Mega Motor motor controller
 */
