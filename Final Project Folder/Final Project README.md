@@ -62,6 +62,7 @@ Program now recognizes when canned phrases have been input through Morse code by
 
 
 Success!  By adding:
+
 ``` if (myword == "HI") {
         moveForward (500); // motors powered on and move forward
 
@@ -72,4 +73,5 @@ Success!  By adding:
       myword = ""; // reset myword to a blank string for next word
     }
     ```
+    
     the program now understands that the a word is a command for an action.  Now time to test the limits.
