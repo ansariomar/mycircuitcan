@@ -72,4 +72,4 @@ Success!  By adding:
       myword = ""; // reset myword to a blank string for next word
     }
     ```
-    program now understands that the a word is a command for an action.  Now time to test the limits.
+    the program now understands that the a word is a command for an action.  Now time to test the limits.
