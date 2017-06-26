@@ -41,3 +41,21 @@ void loop() {
 
 }
 ````
+
+Program now recognizes when canned phrases have been input through Morse code by adding:
+
+```
+{
+      Serial.println("<Wrong input>");  //if input code doesn't match any letter, error
+      Serial.print("here is the word you typed: ");
+      Serial.println(myword);
+      if (myword == "HI") {
+        Serial.println("You really know how to press my buttons!");
+      }
+      Serial.println("resetting myword");
+      myword = ""; // reset myword to a blank string for next word
+    }
+    //return(char('A' + i));
+  }
+  ````
+  Next step is to move from a response within the "serial monitor" to an action performed by a peripheral i.e. DC motor or piezo speaker playing 8-bit music.
