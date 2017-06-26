@@ -57,7 +57,7 @@ Program now recognizes when canned phrases have been input through Morse code by
     }
     //return(char('A' + i));
   }
-  ````
+  ```
   Next step is to move from a response within the "serial monitor" to an action performed by a peripheral i.e. DC motor or piezo speaker playing 8-bit music.
 
 
@@ -73,6 +73,6 @@ if (myword == "HI") {
       Serial.println("resetting myword");
       myword = ""; // reset myword to a blank string for next word
     }
-    ```
+```
     
-    the program now understands that the a word is a command for an action.  Now time to test the limits.
+the program now understands that the a word is a command for an action.  Now time to test the limits.
