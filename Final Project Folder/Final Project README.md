@@ -63,7 +63,8 @@ Program now recognizes when canned phrases have been input through Morse code by
 
 Success!  By adding:
 
-``` if (myword == "HI") {
+``` 
+if (myword == "HI") {
         moveForward (500); // motors powered on and move forward
 
         stopMotion (500); // motors powered off
