@@ -59,3 +59,17 @@ Program now recognizes when canned phrases have been input through Morse code by
   }
   ````
   Next step is to move from a response within the "serial monitor" to an action performed by a peripheral i.e. DC motor or piezo speaker playing 8-bit music.
+
+
+Success!  By adding:
+``` if (myword == "HI") {
+        moveForward (500); // motors powered on and move forward
+
+        stopMotion (500); // motors powered off
+        Serial.println("You really know how to press my buttons!"); //reponse provided in serial monitor when the word "HI" is typed in followed by short pulse to indicate end of word
+      }
+      Serial.println("resetting myword");
+      myword = ""; // reset myword to a blank string for next word
+    }
+    ```
+    program now understands that the a word is a command for an action.  Now time to test the limits.
