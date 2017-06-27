@@ -58,6 +58,15 @@ Program now recognizes when canned phrases have been input through Morse code by
     //return(char('A' + i));
   }
   ```
+  
+  I've added and edited a Morse code decoder sketch to communicate with Arduino.  This is the original sketch:
+  
+unsigned long signal_len,t1,t2;   //time for which button is pressed
+int inputPin = 2;                 //input pin for push button
+int ledPin = 4;                   //outpu pin for LED
+String code = "";                 //string in which one alphabet is stored
+  
+  ```
   Next step is to move from a response within the "serial monitor" to an action performed by a peripheral i.e. DC motor or piezo speaker playing 8-bit music.
 
 
