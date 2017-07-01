@@ -85,3 +85,13 @@ if (myword == "HI") {
 ```
     
 the program now understands that the a word is a command for an action.  Now time to test the limits.
+
+By adding portions of code from previous programs such as DC motor functions or servo movements I have provided the robot a small vocabulary of canned phrases that when recieved via the Morse code key cause a reaction.  The variable for ouput is seemingly endless in this style of communication and is only limited by the programmer's imagination.  I orginally started with the goal of driving a record player using a DC motor that would start playing music once the word "play" had been recieved by Arduino.  For the sake of time, demostated the program's ability to translate Morse code witht the following commands:
+
+"HI":robot moves back and forth using 2 DC motors based and serial monitor displays message "You really know how to push my buttons"
+
+"YO": a back and forth sweep of the servo motor and serial monitor displays message "Howdy!"
+
+"ON": LED turns on and serial monitor displays message "Let there be light!"
+
+In the future I'd like to explore the use of a cipher/cryptoghraphy to add a level of security or challenge to the use of a device running the program.  I'm also interested in building the program's vocabulary to the point where I could upload an entire dictionary and assign a unique response to each word (which could be somewhat predictable or completey random) in order to provide the user of the Morse code key a rich experience.  It could become a guessing game of sorts that challanges them to predict what movement or reaction will take place based on their input.  I really enjoy the vastness of this program's ability to convert analog input into a variety of digital/analog responses that really engage its user.
